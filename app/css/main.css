@@ -1,0 +1,19 @@
+body{ margin: 0;padding: 0;-webkit-font-smoothing: antialiased; }
+*{ box-sizing: border-box;outline: none; }
+input,button,input:active,button:active{ outline: none; }
+input{ -webkit-appearance: none; }
+ul{ list-style-type: none;padding: 0;margin: 0; }
+.clear{ clear: both; }
+a:focus{ outline: none; }
+.hidden-item{ display: none; }
+.visible-item{ display: block; }
+h1,h2,h3{ margin-top: 0;margin-bottom: 0; }
+p{ margin-top: 0;margin-bottom: 0; }
+a{ text-decoration: none; }
+.s-drop{ max-width: 800px;margin: 0 auto; }
+.s-drop-check{ display: none; }
+.s-drop-inner{ background-color: #e0ffff;padding: 5px; }
+.s-drop-inner.error{ background-color: #add6e5; }
+.s-drop-inner .ezdz-dropzone{ border: 2px dashed #7f7f7f;width: 100%;height: 100px;border-radius: 0;color: #6f797c;font-family: "Open Sans";font-size: 18px;font-weight: 600;line-height: 27px;display: -webkit-flex;display: -moz-flex;display: -ms-flex;display: -o-flex;display: flex;justify-content: center;align-items: center;align-content: stretch;flex-wrap: wrap; }
+.s-drop-inner .ezdz-dropzone div{ height: auto;width: 100%; }
+.s-drop-inner .ezdz-dropzone span{ background-color: transparent;color: #6f797c;font-family: "Open Sans";font-size: 18px;font-weight: 600;line-height: 27px; }
